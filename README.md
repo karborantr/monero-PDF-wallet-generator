@@ -21,7 +21,7 @@ Monero/Aeon offline wallet generator
 * 14-15-16-17 Keys: This information can be filled offline with the Generate wallet button above. Of course if the PHP server is running as Local. If you do not have such a talent. Please buy a domain from free HOSTING companies and upload your own file to HOSTING and run it there.
 * 18- Text Shadow: With this option, you activate the shadow process in a way that can increase the readability in the form of contrasting text color.
 * 19- BackGround Image: With this option, you can create a card with the background photo. if you do not set a picture, the standard picture on the server will be selected.
-* 20- Add UserManual: This option is prepared in Turkish only. Please help me translate it to English. [This code](https://github.com/snipeTR/monero-PDF-wallet-generator/blame/e867d923a30b432b51f4dc69fa2694444638248c/pdfGenerator.php#L234)
+* 20- Add UserManual:Please help me translate it to English. [This code](https://github.com/snipeTR/monero-PDF-wallet-generator/blame/e867d923a30b432b51f4dc69fa2694444638248c/pdfGenerator.php#L234)
 * 21-Front Side Background: With this section, you can assign a Background Photo to your Card. This Photo must match your card size. If not, it will be harmonized.
 * 22-Back Side Background: This section is optional, if it is not selected, the photo used at the front will be used automatically.
 * 23- Create PDF button: For this button to work properly, a PHP supported http server must be run in the environment in which it is run. For this, I recommend live linux versions for your security. In this way, you can create and print your wallet in a secluded and secure environment in the LOCALHOST environment away from the internet.
