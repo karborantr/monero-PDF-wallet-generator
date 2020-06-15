@@ -1,5 +1,5 @@
 ## monero-wallet-generator
-Monero/Aeon offline wallet generator
+Monero/Aeon offline* wallet generator
 
 <img src="images/pdf1.png" width="833" >
 
@@ -25,3 +25,6 @@ Monero/Aeon offline wallet generator
 * 21-Front Side Background: With this section, you can assign a Background Photo to your Card. This Photo must match your card size. If not, it will be harmonized.
 * 22-Back Side Background: This section is optional, if it is not selected, the photo used at the front will be used automatically.
 * 23- Create PDF button: For this button to work properly, a PHP supported http server must be run in the environment in which it is run. For this, I recommend live linux versions for your security. In this way, you can create and print your wallet in a secluded and secure environment in the LOCALHOST environment away from the internet.
+
+
+ *need PHP local server
