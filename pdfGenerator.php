@@ -231,22 +231,20 @@ $pdf->SetFont($font, ‘BI’, 12, “, ‘false’);
 $pdf->Rect(0,0,210,297,'F','',$fill_color = array(255, 237, 212));
 $pdf->SetTextColor(0, 0, 0);
 $pdf->SetFillColor(255, 255, 255);
-$pdf->MultiCell(175, 20, "Bu kagit cuzdan 4 adet bilgi vermektedir.
-1-private spend key (özel harcama anahtari)
-2-Mnemonic Word (hafiza cuzdan kurtarma anahtari)
-3-Monero Address (monero adresi)
-4-private ViewKey (özel göruntuleme anahtari)
+$pdf->MultiCell(175, 20, "This paper provides 4 pieces of information.
+1-private spend key (private spend key)
+2-Mnemonic Word (memory recovery key)
+3-Monero Address (monero address)
+4-private ViewKey (private display key)
+You should hide all the data from this information, except for 3, for your security and confidentiality.
 
-Bu bilgilerden 3 haric tum veriler guvenliginiz ve gizliliginiz icin cok iyi gizlemeniz gerekmektedir.
+special spending key ..: is a special series of numbers required to transfer the balance at monero to a wallet. Without this key, you have no other way to save your account with the memory recovery key to spend moneroes on your account.
 
-özel harcama anahtari..: monero adresindeki bakiyeyi harcamak uzere bir cuzdana aktarmak icin gerekli olan özel bir sayi dizisidir. bu anahtar olmadan hesabinizdaki monerolari harcamak icin hesabinizi hafiza cuzdan kurtarma anahtari ile kurtarmaktan baska bir yolunuz yok
+Mnemonic Words ..: Wallet recovery key usually consists of 25 English words. can contain more than one same word. When all words are given to monero wallet applications in the correct order, you can recover all the information about your wallet. You can carry your money by memorizing these words, going to another country completely naked.
 
-Mnemonic Words..: yani hafiza cuzdan kurtarma anahtari genelde 25 adet ingilizce kelimeden olusan bir kelime dizisidir. ayni kelimeden birden fazla olabilir. tum kelimeler duzgun sira ile hatasiz bir bicimde bir araya getirildiginde. cuzdaninizi olusturan tum elementleri kurtarabilirsiniz. bu yöntem genel olarak tum cuzdan bilgilerini ezberleyip hic bir yere kaydetmeden sadece hafizanizda tasimaniza olanak veren bir konsept olarak ortaya cikmistir. bu bilgileri ezberlersizniz uzerinizde hicbir belge yada kanit olmadan baska bir ulkeye gidip orada monerolarinizi harcayabilirsiniz utopik bir örnek olarak.
+Monero Address ..: It is the address where other people can send you monero. you can easily share it anywhere, nobody can see his balance.
 
-Monero Adresi..: insanlarin size monero birimininden kripto para göndermek icin kullanabileceginiz ve heryerde gönul rahatligi ile paylasabileceginiz, sahibinin asla bulunamayacagi icindeki bakiyenin asla görulemeyecegi, gelen ve giden bakiye bilgilerinin özel yöntemler ile Sifrelenebilecegi bir Sekilde uretilen adresitir.
-
-özel göruntuleme anahtari..: bir gönderinin bir yere ulasip ulasmadigi gibi bilgileri blockchain (blok zinciri) uzerinden kontrol etmeniz icin gerekli olan bir bilgidir. bu bilginin ise yarar olmasi icin gönderen monero adresi, gönderim kodu (txid) ve özel göruntuleme anahtari gerekmektedir, bu uc bilgiyi görmeden monero blok zincirindeki hicbir gönderme ve alma islemi takip edilemez.
-", 0, 'J', true, 1, 20, 20, true, 0, false, true, 0, 'T', false);
+private viewing key ..: BlockChain is a key required to follow the monero you send or receive in explorer. In Moneroda BlockChain explorer, nobody can see the balances and addresses.", 0, 'J', true, 1, 20, 20, true, 0, false, true, 0, 'T', false);
 }
 
 header("Content-type:application/pdf");
