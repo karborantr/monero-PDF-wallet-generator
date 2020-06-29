@@ -1,7 +1,7 @@
 ## monero-wallet-generator
 Monero/Aeon offline* wallet generator
 
-<img src="images/pdf1.png" width="833" >
+<img src="images/sample.png" width="833" >
 
 ## This page generates a new Monero or Aeon address. It is self contained and does all the necessary calculations locally, so is suitable for generating a new wallet on a machine that is not connected to the network, and may even never be. This way, you can create a Monero or Aeon wallet without risking the keys. 
 ## This system was originally built on the code produced by the project https://moneroaddress.org/ and supported by TCPDF 6.2.25 (https://tcpdf.org/). Creates offline wallets in PDF format for MONERO / AEON. ready to print, front page and back page are detachable if necessary. Even the guide lines required to cut the card are not forgotten.
