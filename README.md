@@ -1,16 +1,16 @@
-## monero-wallet-generator
+## Monero-Wallet-Generator
 Monero/Aeon offline(need PHP local server) wallet generator
 
-click to big size
+Click to BIG size
 <img src="images/sample.png" width="833" >
 
 ## This page generates a new Monero or Aeon address. It is self contained and does all the necessary calculations locally, so is suitable for generating a new wallet on a machine that is not connected to the network, and may even never be. This way, you can create a Monero or Aeon wallet without risking the keys. 
 ## This system was originally built on the code produced by the project https://moneroaddress.org/ and supported by TCPDF 6.2.25 (https://tcpdf.org/). Creates offline wallets in PDF format for MONERO / AEON. ready to print, front page and back page are detachable if necessary. Even the guide lines required to cut the card are not forgotten.
-* 1-Top space: determines the top of the paper and the gap.
+* 1-Top space: Determines the top of the paper and the gap.
 * 2-Left Space: Determines the gap with the left part of the paper.
-* 3-Card Width: determines the width of a card, cards are designed as 2 pages front and back.
+* 3-Card Width: Determines the width of a card, cards are designed as 2 pages front and back.
 * 4-Card Height: Indicates the height of the card.
-* 5-Space Between Cards: specifies the space to be left between two cards. it must be changed according to the printer's capabilities.
+* 5-Space Between Cards: Specifies the space to be left between two cards. It must be changed according to the printer's capabilities.
 * 6-Inner Guidelines: Determines the inside of the guide line required for cutting.
 * 7-Outer Guidelines: Determines the outer part of the guide line required for cutting.
 * 8-Guidelines Color: Determines the color of the guide line required for cutting. Care should be taken to choose a color that contrasts with the background photo color to be selected for printing.
